@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h1>Admin Dashboard</h1>
+    
+    <h2> Design upload</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="design" id="design">
+        <input type="submit" value="Upload Design">
+        <label for="design">Upload Design</label>
+    </form>
+
+    <h2> Design delete</h2>
+    <form action="/delete" method="POST" enctype="multipart/form-data">
+        <input type="file" name="design" id="design">
+        <input type="submit" value="Delete Design">
+        <label for="design">Delete Design</label>
+    </form>
+
+    <h2> Design update</h2>
+    <form action="/update" method="POST" enctype="multipart/form-data">
+        <input type="file" name="design" id="design">
+        <input type="submit" value="Update Design">
+        <label for="design">Update Design</label>
+    </form>
+
+    <h2> Design search</h2>
+    <form action="/search" method="POST" enctype="multipart/form-data">
+        <input type="file" name="design" id="design">
+        <input type="submit" value="Search Design">
+        <label for="design">Search Design</label>
+    </form>
+
+    <h2> Design view</h2>
+    <form action="/view" method="POST" enctype="multipart/form-data">
+        <input type="file" name="design" id="design">
+        <input type="submit" value="View Design">
+        <label for="design">View Design</label>
+    </form>
+
+    <h2>Manage Designs</h2>
+    <form action="/manage" method="POST" enctype="multipart/form-data">
+        <input type="file" name="design" id="design">
+        <input type="submit" value="Manage Designs">
+        <label for="design">Manage Designs</label>
+    </form>
+
+    <h2>Manage Users</h2>
+    <form action="/manage" method="POST" enctype="multipart/form-data">
+        <input type="file" name="design" id="design">
+        <input type="submit" value="Manage Users">
+        <label for="design">Manage Users</label>
+    </form>
+
+
+</body>
+</html>
